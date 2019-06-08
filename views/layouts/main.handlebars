@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movies List</title>
+  {{!-- 載入bootstrap的css --}}
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Movie List</a>
+    </div>
+  </nav>
+
+  {{!-- partial template --}}
+  {{{body}}}
+
+  {{!-- 按順序先載入jquery, popper ,bootstrap的js --}}
+  <script src="/javascripts/jquery-3.4.1.min.js"></script>
+  <script src="/javascripts/popper.min.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</body>
+
+</html>
