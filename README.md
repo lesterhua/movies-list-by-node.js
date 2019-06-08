@@ -43,8 +43,8 @@ cd movies_list
 ### 接著就可以在網頁輸入http://localhost:3000
 
 ## 畫面
-https://github.com/lesterhua/movies-list-by-node.js/blob/master/public/view.gif
-
+[](https://github.com/lesterhua/movies-list-by-node.js/blob/master/public/view.gif
+)
 ## 作者
 
 [Lester](https://github.com/lesterhua)
